@@ -7,6 +7,8 @@ function withOpacity(variableName) {
   };
 }
 
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["selector", "[data-theme='dark']"],
@@ -55,7 +57,7 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
+        sans: ["Figtree", ...defaultTheme.fontFamily.sans],
       },
 
       typography: {
