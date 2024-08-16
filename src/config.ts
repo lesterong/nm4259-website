@@ -146,4 +146,10 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
   },
+  {
+    name: 'Website',
+    href: 'https://www.lesterong.com',
+    linkTitle: 'Lester Ong Homepage',
+    active: true,
+  }
 ];
