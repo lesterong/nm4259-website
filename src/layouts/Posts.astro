@@ -19,16 +19,6 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
 
 <Layout title={`Posts | ${SITE.title}`}>
   <Header />
-  {currentPage === 1 && (
-    <section id="hero" class="w-full">
-      <h1>Hello there!</h1>
-    <p>
-      I'm Lester, a final year Computer Science student and this is my blog for my NM4259
-      assignments.
-    </p>
-  </section>
-  <Hr />
-  )}
   <section class="w-full">
     <ul>
       {
