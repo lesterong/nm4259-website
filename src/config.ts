@@ -15,7 +15,7 @@ export const SITE: Site = {
 
 export const LOCALE = {
   lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: [], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  langTag: ["en-SG"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {
