@@ -1,4 +1,5 @@
 import { LOCALE } from "@config";
+import { useEffect, useState } from "react";
 
 interface DatetimesProps {
   pubDatetime: string | Date;
@@ -16,14 +17,25 @@ export default function Datetime({
   size = "sm",
   className = "",
 }: Props) {
-  return (
-    <div
-      className={`flex items-center opacity-80 ${className}`.trim()}
-    >
-      {modDatetime && modDatetime > pubDatetime ? (
-        <span className="sr-only">
-          Updated:
+  const [render, setRender] = useState(false);
+  useEffect(() => {
+    setRender(true);
+  }, []);
+
+  if (!render) {
+    return (
+      <div className={`flex items-center opacity-0 ${className}`.trim()}>
+        <span className={`italic ${size === "sm" ? "text-sm" : "text-base"}`}>
+          Loading
         </span>
+      </div>
+    );
+  }
+
+  return (
+    <div className={`flex items-center opacity-80 ${className}`.trim()}>
+      {modDatetime && modDatetime > pubDatetime ? (
+        <span className="sr-only">Updated:</span>
       ) : (
         <span className="sr-only">Published:</span>
       )}
