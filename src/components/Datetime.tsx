@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 interface DatetimesProps {
   pubDatetime: string | Date;
   modDatetime: string | Date | undefined | null;
@@ -15,13 +17,9 @@ export default function Datetime({
   className = "",
 }: Props) {
   return (
-    <div
-      className={`flex items-center opacity-80 ${className}`.trim()}
-    >
+    <div className={`flex items-center opacity-80 ${className}`.trim()}>
       {modDatetime && modDatetime > pubDatetime ? (
-        <span className="sr-only">
-          Updated:
-        </span>
+        <span className="sr-only">Updated:</span>
       ) : (
         <span className="sr-only">Published:</span>
       )}
@@ -40,13 +38,13 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
     modDatetime && modDatetime > pubDatetime ? modDatetime : pubDatetime
   );
 
-  const date = myDatetime.toLocaleDateString('en-SG', {
+  const date = myDatetime.toLocaleDateString("en-SG", {
     year: "numeric",
     month: "short",
     day: "numeric",
   });
 
-  const time = myDatetime.toLocaleTimeString('en-SG', {
+  const time = myDatetime.toLocaleTimeString("en-SG", {
     hour: "2-digit",
     minute: "2-digit",
   });
