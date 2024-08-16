@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://www.lesterong.com/",
   desc: "Lester's NM4259 journey.",
   title: "Lester's NM4259",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "og-img.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 8,
