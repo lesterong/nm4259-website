@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://nm4259.lesterong.com/", // replace this with your deployed domain
   author: "Lester Ong",
   profile: "https://www.lesterong.com/",
-  desc: "Lester's NM4259 journey.",
+  desc: "Lester's NM4259 (Mobile Interaction Design) journey.",
   title: "Lester's NM4259",
   ogImage: "og-img.png",
   lightAndDarkMode: true,

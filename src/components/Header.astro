@@ -14,7 +14,7 @@ const { activeNav } = Astro.props;
   <a id="skip-to-content" href="#main-content">Skip to content</a>
   <div class="nav-container">
     <div class="top-nav-wrap">
-      <a href="/" class="logo whitespace-nowrap">
+      <a href="/" class="logo whitespace-nowrap flex">
         {
           LOGO_IMAGE.enable ? (
             <img
@@ -27,6 +27,7 @@ const { activeNav } = Astro.props;
             SITE.title
           )
         }
+        <span class="text-xs sm:text-sm ml-1">Mobile Interaction Design</span>
       </a>
       <nav id="nav-menu">
         <button
