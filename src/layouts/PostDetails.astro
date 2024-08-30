@@ -226,6 +226,8 @@ const layoutProps = {
     (document.querySelector("#article")?.textContent || "")
       .replace(/<\/?[^>]+(>|$)/g, "")
       .trim()
-      .split(/\s/g).length
+      .split(/\s/g)
+      .filter((x) => x !== "")
+      .length
   } words`;
 </script>
