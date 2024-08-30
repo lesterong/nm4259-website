@@ -73,7 +73,7 @@ const layoutProps = {
     <article id="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
-
+    <div class="text-sm font-mono mt-8 text-gray-300/50" id="word-count"></div>
     <ul class="my-8">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} />)}
     </ul>
@@ -219,4 +219,13 @@ const layoutProps = {
     });
   }
   backToTop();
+</script>
+
+<script is:inline>
+  document.querySelector("#word-count").textContent = `${
+    (document.querySelector("#article")?.textContent || "")
+      .replace(/<\/?[^>]+(>|$)/g, "")
+      .trim()
+      .split(/\s/g).length
+  } words`;
 </script>
