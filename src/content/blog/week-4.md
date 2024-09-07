@@ -4,7 +4,7 @@ pubDatetime: 2024-09-07T12:53:06.000+08:00
 modDatetime: 
 title: "Week 4: Diving into user research"
 featured: false
-draft: true
+draft: false
 tags:
   - week 4
 description: "second individual reflection"
