@@ -36,7 +36,7 @@ When coming up with the scenario, I thought deeper about the context NUS NextBus
 - Location awareness, for example when using the app to find directions, we can prefill the current location.
 - Fuzzy searching for locations, since typing while moving is more error-prone, users should be able to find search results even when they make small errors.
 
-This process helped to form the foundation of features and screens to design for. This is particularly importance since NextBus is an application mostly used on mobile phones. In mobile devices, screen real estate is very precious and including only the key features is important to reduce cognitive load on the user.
+This process helped to form the foundation of features and screens to design for. This is particularly important since NextBus is an application mostly used on mobile phones. In mobile devices, screen real estate is very precious and including only the key features is important to reduce cognitive load on the user.
 
 ## Prioritising tasks
 
