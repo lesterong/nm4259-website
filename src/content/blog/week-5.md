@@ -31,7 +31,7 @@ This highlighted the importance of coming up with clear and tangible pain points
 
 With our user research, we moved into wireframes. We started with designing personas and scenarios to summarise key user behaviours and needs. I felt that this process helped my group bridge the gap from user research to design, in increasing our understanding of what features our users may require. 
 
-When coming up with the scenario, I thought deeper about context NUS NextBus users use the application in. Users often use the application for a short period of time while on the go. This meant that our design has to involve a high level of contextual awareness, and during our group discussions, I proposed some features that I thought might help:
+When coming up with the scenario, I thought deeper about the context NUS NextBus users use the application in. Users often use the application for a short period of time while on the go. This meant that our design has to involve a high level of contextual awareness, and during our group discussions, I proposed some features that I thought might help:
 
 - Location awareness, for example when using the app to find directions, we can prefill the current location.
 - Fuzzy searching for locations, since typing while moving is more error-prone, users should be able to find search results even when they make small errors.
