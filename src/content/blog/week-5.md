@@ -1,10 +1,10 @@
 ---
 author: Lester Ong
-pubDatetime: 2024-09-13T18:02:38.000+08:00
+pubDatetime: 2024-09-13T19:02:38.000+08:00
 modDatetime: 
 title: "Week 5: From research to design"
 featured: false
-draft: true
+draft: false
 tags:
   - week 5
 description: third individual reflection
