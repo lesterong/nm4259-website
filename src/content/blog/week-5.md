@@ -16,12 +16,12 @@ With about a week to go to the final submission for the project, there was a lot
 
 In our milestone 2, we conducted our user research to find out about user pain points.
 
-One of the comments we received for milestone 2 was that our pain points were quite broad. We decided to scope down our pain points to make it clearer. For example, we wrote "Unclear Information" as one of our pain points. This was not a good pain point as it was (*ironically*) unclear. I started to wonder about what was unclear about the application:
+One of the comments we received for milestone 2 was that our pain points were quite broad. We decided to scope down our pain points to make it clearer. For example, we wrote "Unclear Information" as a pain points. This was not a good pain point as it was (*ironically*) unclear. I started to wonder what was unclear about the application:
 
 - Is there a missing feature?
 - Is the layout that was unclear, such as the lack of visual hierarchy?
 
-I found the content in this week's class about the different types of visual hierarchy to be really helpful in my decision. Ultimately, I decided it was more of the latter, as some critical information for route planning was not clearly displayed. For instance, the bus occupancy was really small and difficult to see on the map.
+I found the content in this week's class about the different types of visual hierarchy to be really helpful in my decision. Ultimately, I decided it was more of the latter, as some critical information for route planning was not clearly displayed. For instance, the bus occupancy was really small and difficult to see on the map, and many users did not notice this feature.
 
 ![](@assets/images/week5-map.jpg)
 
