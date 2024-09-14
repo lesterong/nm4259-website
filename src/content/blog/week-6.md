@@ -14,6 +14,7 @@ This week, we wrapped up our group project.
 
 - Good artists copy, great artists steal
   - This obviously doesn’t mean to copy templates wholesale, but that there is great value in tapping on existing resources. For one, good templates are probably designed based on researched heuristics and adhere to widely adopted design systems (from people who likely know what they are doing, more than me for sure)- which cuts down a lot of work especially for someone without much formal UI/UX experience. This allows us to design more quickly (crucial with the short deadlines), and more importantly, get feedback early, and following which, iterate and improve.
+  - Borrowing design elements from existing apps
 - Design is about users, not you.
   - User testing
   - Never assume anything
@@ -26,3 +27,14 @@ This week, we wrapped up our group project.
   - For instance, why? Was the button not big enough? Were there other more distracting elements on the same screen?
   - And so, does something need to change? Is this a common pattern we see amongst our other test users? Is the search and filter functionality a key action we want our user to focus on anyways in a “normal user flow”?, etc.
   - I realised that forcing myself to think more critically about not just the things that are in plain sight can draw quite some rather useful insights.
+
+## Iterative nature of design
+
+Space is limited in mobile
+
+
+what to include
+
+what not to include
+
+While we did not have the opportunity to build multiple wireframes. I felt that my group meetings showed me the iterative nature of design.
