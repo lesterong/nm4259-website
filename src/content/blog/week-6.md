@@ -28,7 +28,7 @@ I found BusLeh's bus occupancy information to be significantly more intuitive th
 
 ![](@assets/images/week5-map.jpg)
 
-Upon further reflection, I realised that including this feature was essential for our redesign. Many other bus timing applications I looked at, including BusLeh, SG Buses all had a similar implementation of bus occupancy information. By obscuring occupancy information to another page, the existing application disrupted users' mental model of typical bus timings application. Furthermore, according to our user research, the bus timings page is the most frequently access page. The lack of occupancy information on this page also hinders users' journey planning, making NUS NextBus less user-friendly as a whole.
+Upon further reflection, I realised that including this feature was essential for our redesign. Many other bus timing applications I looked at, including BusLeh, SG Buses all had a similar implementation of bus occupancy information. By obscuring occupancy information to another page, the existing application disrupted users' mental model of typical bus timings application. Furthermore, according to our user research, the bus timings page is the most frequently accessed page. The lack of occupancy information on this page also hinders users' journey planning, making NUS NextBus less user-friendly as a whole.
 
 
 ## Iterative wireframing
